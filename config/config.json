@@ -1,0 +1,53 @@
+{
+  "key_manager_config": {
+    "key_type": "local_private_key",
+    "aws_region": "",
+    "aws_secret_name": "",
+    "local_hmac_key": "",
+    "local_bsc_private_key": "",
+    "local_eth_private_key": ""
+  },
+  "db_config": {
+    "dialect": "sqlite3",
+    "db_path": "./build/test.db"
+  },
+  "chain_config": {
+    "balance_monitor_interval": 60,
+    "bsc_observer_fetch_interval": 1,
+    "bsc_start_height": 6010146,
+    "bsc_provider": "https://data-seed-prebsc-1-s3.binance.org:8545",
+    "bsc_confirm_num": 2,
+    "bsc_swap_agent_addr": "",
+    "bsc_explorer_url": "https://testnet.bscscan.com/tx",
+    "bsc_max_track_retry": 60,
+    "bnb_alert_threshold": "1000000000000000000",
+    "bsc_wait_milli_sec_between_swaps": 100,
+    "eth_observer_fetch_interval": 10,
+    "eth_start_height": 8018001,
+    "eth_provider": "",
+    "eth_confirm_num": 1,
+    "eth_swap_agent_addr": "",
+    "eth_explorer_url": "https://rinkeby.etherscan.io/tx",
+    "eth_max_track_retry": 600,
+    "eth_alert_threshold": "1000000000000000000",
+    "eth_wait_milli_sec_between_swaps": 200
+  },
+  "log_config": {
+    "level": "INFO",
+    "filename": "build/test.log",
+    "max_file_size_in_mb": 100,
+    "max_backups_of_log_files": 1,
+    "max_age_to_retain_log_files_in_days": 30,
+    "use_console_logger": false,
+    "use_file_logger": true,
+    "compress": false
+  },
+  "alert_config": {
+    "telegram_bot_id": "",
+    "telegram_chat_id": "",
+    "block_update_timeout": 10
+  },
+  "admin_config": {
+    "listen_addr": ":8000"
+  }
+}

@@ -1,0 +1,138 @@
+2021-02-08 14:32:14 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:32:14 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:32:14 INFO Serve start admin server at :8000
+2021-02-08 14:32:29 INFO confirmSwapRequestDaemon found 1 confirmed event logs
+2021-02-08 14:32:30 INFO swapPairInstanceDaemon found 1 confirmed swapPairSM pair register requests
+2021-02-08 14:32:30 INFO swapPairInstanceDaemon do swapPairSM, erc20 address 0x24DdCeef5978aBD870bC731b005A0eb99a79cb73, symbol BTC
+2021-02-08 14:32:31 ERROR func2 do swapPairSM failed: failed to estimate gas needed: gas required exceeds allowance (30000000) or always failing transaction, start hash 0x37c75d2a3e9bc3f25b898a6c6f902e53f36320763faa9ff089bb1b45f6e581ad
+2021-02-08 14:33:44 INFO confirmSwapRequestDaemon found 1 confirmed event logs
+2021-02-08 14:33:45 INFO swapPairInstanceDaemon found 1 confirmed swapPairSM pair register requests
+2021-02-08 14:33:45 INFO swapPairInstanceDaemon do swapPairSM, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, symbol BTC
+2021-02-08 14:33:49 INFO doCreateSwapPair Send transaction to BSC, https://testnet.bscscan.com/tx/0xdeb20e5a09d82502f8dd582c675bacf70a71b87ec8d445f56467b865dadc6158
+2021-02-08 14:33:49 INFO func2 Track 1 non-finalized swap txs
+2021-02-08 14:33:54 INFO func2 Track 1 non-finalized swap txs
+2021-02-08 14:34:00 INFO func2 Track 1 non-finalized swap txs
+2021-02-08 14:34:04 INFO func3 Track 1 success swap pair created 
+2021-02-08 14:34:04 INFO AddSwapPairInstance Create new swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:34:50 INFO swapInstanceDaemon Swap token 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, direction eth_bsc, sponsor: 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f, amount 10000000000000, decimals 8
+2021-02-08 14:34:52 INFO doSwap Send transaction to BSC, https://testnet.bscscan.com/tx/0x31f3afbb328f0f62549c575fa8261dab6c6e65c42f5d1400880db30e5139f44b
+2021-02-08 14:35:21 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:35:23 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:35:23 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:35:23 INFO func3 swap tx is built successfully, but the swap tx status is uncertain, just mark the swap and swap tx status as sent, swap ID 1
+2021-02-08 14:35:24 INFO Serve start admin server at :8000
+2021-02-08 14:35:29 INFO 2 fill swap tx is success, chain BSC, txHash: 0x31f3afbb328f0f62549c575fa8261dab6c6e65c42f5d1400880db30e5139f44b
+2021-02-08 14:36:14 INFO WithdrawToken Send transaction to BSC, https://testnet.bscscan.com/tx/0xf9edb9bca56456f7defc1be5412dbb8e5aa65a5a554ed1394828e70347ba6b28
+2021-02-08 14:36:43 INFO swapInstanceDaemon Swap token 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, direction eth_bsc, sponsor: 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f, amount 10000000000000, decimals 8
+2021-02-08 14:36:46 INFO doSwap Send transaction to BSC, https://testnet.bscscan.com/tx/0xc638a8c8084648f99a20b21e9def7eadf54d0651c359f713f16e092733cf7580
+2021-02-08 14:36:52 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:36:54 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:36:54 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:36:54 INFO func3 swap tx is built successfully, but the swap tx status is uncertain, just mark the swap and swap tx status as sent, swap ID 2
+2021-02-08 14:36:54 INFO Serve start admin server at :8000
+2021-02-08 14:36:59 INFO 2 fill swap tx is success, chain BSC, txHash: 0xc638a8c8084648f99a20b21e9def7eadf54d0651c359f713f16e092733cf7580
+2021-02-08 14:37:26 ERROR WithdrawToken build native coin transfer error: failed to estimate gas needed: gas required exceeds allowance (15681) or always failing transaction
+2021-02-08 14:37:34 ERROR WithdrawToken broadcast tx to BSC error: invalid sender
+2021-02-08 14:37:52 ERROR WithdrawToken broadcast tx to BSC error: insufficient funds for gas * price + value
+2021-02-08 14:37:58 ERROR WithdrawToken broadcast tx to BSC error: insufficient funds for gas * price + value
+2021-02-08 14:38:07 INFO WithdrawToken Send transaction to BSC, https://testnet.bscscan.com/tx/0x69b40fab26048a82af49b106f7778dd0a6c4ed686df89d3cf6b824c66120f782
+2021-02-08 14:38:54 INFO swapInstanceDaemon Swap token 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, direction eth_bsc, sponsor: 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f, amount 10000000000000, decimals 8
+2021-02-08 14:39:14 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:39:16 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:39:16 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:39:16 INFO func3 retry swap, start tx hash 0x3800aec08c9a6fa7771ad2a5fda7979e7a28803e78ca406b03ccad8a719fc5ee, symbol BTC, amount 10000000000000, direction%!(EXTRA common.SwapDirection=eth_bsc)
+2021-02-08 14:39:16 INFO swapInstanceDaemon Swap token 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, direction eth_bsc, sponsor: 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f, amount 10000000000000, decimals 8
+2021-02-08 14:39:16 INFO Serve start admin server at :8000
+2021-02-08 14:40:00 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:40:02 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:40:02 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:40:02 INFO swapInstanceDaemon Swap token 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, direction eth_bsc, sponsor: 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f, amount 10000000000000, decimals 8
+2021-02-08 14:40:02 INFO Serve start admin server at :8000
+2021-02-08 14:40:20 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:40:21 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:40:21 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:40:21 INFO func3 retry swap, start tx hash 0x3800aec08c9a6fa7771ad2a5fda7979e7a28803e78ca406b03ccad8a719fc5ee, symbol BTC, amount 10000000000000, direction eth_bsc
+2021-02-08 14:40:21 INFO swapInstanceDaemon Swap token 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, direction eth_bsc, sponsor: 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f, amount 10000000000000, decimals 8
+2021-02-08 14:40:21 INFO Serve start admin server at :8000
+2021-02-08 14:42:06 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:42:08 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:42:08 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:42:08 INFO swapInstanceDaemon Swap token 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, direction eth_bsc, sponsor: 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f, amount 10000000000000, decimals 8
+2021-02-08 14:42:09 INFO Serve start admin server at :8000
+2021-02-08 14:42:59 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:43:01 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:43:01 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:43:01 INFO func3 retry swap, start tx hash 0x3800aec08c9a6fa7771ad2a5fda7979e7a28803e78ca406b03ccad8a719fc5ee, symbol BTC, amount 10000000000000, direction eth_bsc
+2021-02-08 14:43:01 INFO swapInstanceDaemon Swap token 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, direction eth_bsc, sponsor: 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f, amount 10000000000000, decimals 8
+2021-02-08 14:43:01 INFO Serve start admin server at :8000
+2021-02-08 14:43:02 ERROR func4 do swap failed: failed to estimate gas needed: gas required exceeds allowance (24681) or always failing transaction, start hash 0x3800aec08c9a6fa7771ad2a5fda7979e7a28803e78ca406b03ccad8a719fc5ee
+2021-02-08 14:43:49 INFO retryFailedSwapsDaemon Retry to handle swap, id: 1, direction eth_bsc, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, amount 10000000000000, sponsor 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f
+2021-02-08 14:45:12 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:45:14 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:45:14 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:45:14 INFO Serve start admin server at :8000
+2021-02-08 14:46:33 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:46:34 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:46:34 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:46:34 INFO func3 retry the retrySwap, start tx hash 0x3800aec08c9a6fa7771ad2a5fda7979e7a28803e78ca406b03ccad8a719fc5ee, symbol BTC, amount 10000000000000, direction%!(EXTRA common.SwapDirection=eth_bsc)
+2021-02-08 14:46:34 INFO retryFailedSwapsDaemon Retry to handle swap, id: 1, direction eth_bsc, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, amount 10000000000000, sponsor 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f
+2021-02-08 14:46:34 INFO Serve start admin server at :8000
+2021-02-08 14:47:40 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 14:47:41 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 14:47:41 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 14:47:41 INFO retryFailedSwapsDaemon Retry to handle swap, id: 1, direction eth_bsc, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, amount 10000000000000, sponsor 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f
+2021-02-08 14:47:41 INFO Serve start admin server at :8000
+2021-02-08 14:47:42 ERROR func4 do retry swap failed: failed to estimate gas needed: gas required exceeds allowance (24681) or always failing transaction, start hash 0x3800aec08c9a6fa7771ad2a5fda7979e7a28803e78ca406b03ccad8a719fc5ee
+2021-02-08 14:48:38 INFO retryFailedSwapsDaemon Retry to handle swap, id: 2, direction eth_bsc, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, amount 10000000000000, sponsor 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f
+2021-02-08 14:48:41 INFO doRetrySwap Send transaction to BSC, https://testnet.bscscan.com/tx/0xdc683790e2422696e6f14dadc7b519f4cdb6c74b2a24b9a83bf7706145813bf5
+2021-02-08 14:48:53 INFO 2 fill retry swap tx is success, chain BSC, txHash: 0xdc683790e2422696e6f14dadc7b519f4cdb6c74b2a24b9a83bf7706145813bf5
+2021-02-08 15:00:10 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 15:00:12 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 15:00:12 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 15:00:12 INFO Serve start admin server at :8000
+2021-02-08 15:01:06 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 15:01:07 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 15:01:07 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 15:01:08 INFO Serve start admin server at :8000
+2021-02-08 15:01:19 ERROR WithdrawToken broadcast tx to BSC error: insufficient funds for gas * price + value
+2021-02-08 15:01:32 INFO WithdrawToken Send transaction to BSC, https://testnet.bscscan.com/tx/0xf70e5984a4f51cf13ead3970bba27882627e2bc15761cdcbd78f73847ed78340
+2021-02-08 15:02:17 INFO swapInstanceDaemon Swap token 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, direction eth_bsc, sponsor: 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f, amount 10000000000000, decimals 8
+2021-02-08 15:02:18 ERROR func4 do swap failed: failed to estimate gas needed: gas required exceeds allowance (31872) or always failing transaction, start hash 0x31efe18d112b85d8a8c4015af70de178a65d2466e87826e847bbe8eb9374845d
+2021-02-08 15:03:32 INFO retryFailedSwapsDaemon Retry to handle swap, id: 3, direction eth_bsc, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, amount 10000000000000, sponsor 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f
+2021-02-08 15:04:28 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 15:04:30 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 15:04:30 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 15:04:30 INFO Serve start admin server at :8000
+2021-02-08 15:04:31 INFO retryFailedSwapsDaemon Retry to handle swap, id: 4, direction eth_bsc, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, amount 10000000000000, sponsor 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f
+2021-02-08 15:05:18 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 15:05:19 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 15:05:19 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 15:05:19 INFO func3 retry the retrySwap, start tx hash 0x31efe18d112b85d8a8c4015af70de178a65d2466e87826e847bbe8eb9374845d, symbol BTC, amount 10000000000000, direction%!(EXTRA common.SwapDirection=eth_bsc)
+2021-02-08 15:05:19 INFO retryFailedSwapsDaemon Retry to handle swap, id: 4, direction eth_bsc, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, amount 10000000000000, sponsor 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f
+2021-02-08 15:05:20 INFO Serve start admin server at :8000
+2021-02-08 15:05:20 ERROR func4 do retry swap failed: failed to estimate gas needed: gas required exceeds allowance (31872) or always failing transaction, start hash 0x31efe18d112b85d8a8c4015af70de178a65d2466e87826e847bbe8eb9374845d
+2021-02-08 15:07:53 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 15:07:55 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 15:07:55 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 15:07:55 INFO Serve start admin server at :8000
+2021-02-08 15:08:38 INFO retryFailedSwapsDaemon Retry to handle swap, id: 5, direction eth_bsc, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, amount 10000000000000, sponsor 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f
+2021-02-08 15:08:38 ERROR func4 do retry swap failed: failed to estimate gas needed: gas required exceeds allowance (31872) or always failing transaction, start hash 0x31efe18d112b85d8a8c4015af70de178a65d2466e87826e847bbe8eb9374845d
+2021-02-08 15:09:32 INFO retryFailedSwapsDaemon Retry to handle swap, id: 6, direction eth_bsc, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D, amount 10000000000000, sponsor 0xB9D640cE23c1f8cE9797fd5cD2f0954f9119126f
+2021-02-08 15:09:35 INFO doRetrySwap Send transaction to BSC, https://testnet.bscscan.com/tx/0x9e7d8339a525883cb423856ef60ea8355db6be04737d0c384870fe2a805a6bd4
+2021-02-08 15:09:46 INFO 2 fill retry swap tx is success, chain BSC, txHash: 0x9e7d8339a525883cb423856ef60ea8355db6be04737d0c384870fe2a805a6bd4
+2021-02-08 15:10:23 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 15:10:24 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 15:10:24 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 15:10:24 INFO Serve start admin server at :8000
+2021-02-08 15:16:20 INFO buildSwapPairInstance Load swap pair, symbol BTC, bep20 address 0x4bD2136A77AEb72923C888FcA859EE9e0Aa162D3, erc20 address 0x2011cf2e817464F789EdFF318474b8034f18f06D
+2021-02-08 15:16:22 INFO swapInstanceDaemon start swap daemon, direction bsc_eth
+2021-02-08 15:16:22 INFO swapInstanceDaemon start swap daemon, direction eth_bsc
+2021-02-08 15:16:22 INFO Serve start admin server at :8000
+2021-02-08 15:41:23 INFO confirmSwapRequestDaemon found 1 confirmed event logs
+2021-02-08 15:41:24 INFO swapPairInstanceDaemon found 1 confirmed swapPairSM pair register requests
+2021-02-08 15:41:24 INFO swapPairInstanceDaemon do swapPairSM, erc20 address 0x163c0D803a2ed7ab3F9FBDDFc15315F3F002E5DF, symbol BTC
+2021-02-08 15:41:28 ERROR doCreateSwapPair broadcast tx to BSC error: replacement transaction underpriced
+2021-02-08 15:41:28 ERROR func2 do swapPairSM failed: replacement transaction underpriced, start hash 0x35d2c477d03ff14390c06c46763c0a97d1ae819dd0b9b46df2d7b27872753c79
+2021-02-08 15:41:28 INFO swapPairInstanceDaemon found 1 confirmed swapPairSM pair register requests
+2021-02-08 15:41:28 INFO swapPairInstanceDaemon do swapPairSM, erc20 address 0x163c0D803a2ed7ab3F9FBDDFc15315F3F002E5DF, symbol BTC
+2021-02-08 15:41:30 ERROR func2 do swapPairSM failed: UNIQUE constraint failed: swap_pair_creat_tx.swap_pair_register_tx_hash, start hash 0x35d2c477d03ff14390c06c46763c0a97d1ae819dd0b9b46df2d7b27872753c79
